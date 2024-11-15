@@ -1,0 +1,81 @@
+header{
+    background-color: #bbb;
+    padding: 20px 0;
+ 
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+
+    margin-right: 22px;
+}
+ 
+nav a{
+    
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    
+}
+.productos h2{
+    font-size: 30px;
+    
+}
+.p-descripcion{
+    font-size: 18px;
+}
+
+.p-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19 ;
+}
+
+.productos li:hover :first-child{
+    font-size: 33px;
+    transition: 0.5s;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+

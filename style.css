@@ -1,0 +1,182 @@
+header{
+    background-color: #bbb;
+    padding: 20px 0;
+ 
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+
+    margin-right: 22px;
+}
+ 
+nav a{
+    
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+/*CSS PARA EL PRINCIPAL*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#banner{
+    width:100%;
+}
+
+.principal{
+    background-color: #fefefe;
+    padding: 3% 20%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal  strong{
+    font-weight: bold;
+    
+}
+
+.principal em {
+    font-style: italic;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.imagen-diferenciales {
+    width: 60%;
+}
+
+.items::before{
+    content: '✷';
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+.mapa {
+    padding: 3em auto;
+    background:linear-gradient(#fefefe,#888 );
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video-section{
+    background-color: #888;
+    padding: 3em auto;
+}
+.video{
+    width: 560px;
+
+}
+
+
+/*CSS PARA EL FOOTER*/
+footer{
+    background-image: url(/imagenes/imagenes/bg.jpg);
+    padding: 3% 0;
+    text-align: center;
+
+
+}
+
+.icopy{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
